@@ -1,0 +1,59 @@
+body {
+background-color: rgb(168, 122, 214);
+
+
+
+}
+
+
+h1 {
+background-color: rgb(173, 172, 172);
+color: rgb(167, 119, 209);
+font-family: 'Pixelify Sans', sans-serif;
+text-align: center;
+font-size: 60px;
+height: 100PX;
+width: 500px;
+margin-left: 400px;
+
+}
+
+h2 {
+background-color: indigo;
+color: azure;
+text-align: left;
+font-size: 20px;
+font-family: 'Pixelify Sans', sans-serif;
+width: 150px;
+}
+
+p {
+background-color: indigo;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family: 'Pixelify Sans', sans-serif;
+width: 150px;
+}
+
+#st1 {
+    background-color: indigo;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family: 'Pixelify Sans', sans-serif;
+}
+
+.stilo2 {
+    background-color: indigo;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family: 'Pixelify Sans', sans-serif;
+
+}
+pre {
+    background-color: indigo;
+color:white;
+font-size: 20px;
+font-family: 'Pixelify Sans', sans-serif;
+width: 210px;
+}
+

@@ -1,0 +1,28 @@
+.div1 {
+background-color: red;
+height: 300px;
+padding-top: 10px;
+}
+
+.div2 {
+    background-color: blue;
+    height: 300px;
+}
+
+.div3 {
+    background-color: yellow;
+    height: 300px;
+}
+.div0 {
+    background-color: black;
+    color: aliceblue;
+    margin: 30px;
+    text-align: center;
+    font-size: 100px;
+    height: 100px;
+    padding: 60px;
+    
+
+
+
+}
