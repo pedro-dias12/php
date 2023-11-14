@@ -1,0 +1,29 @@
+#imagem{
+background-color: black;
+height: 500px;
+padding-top: 70px;
+}
+
+#imagem1{
+    background-image: url(download.jpg);
+    height: 600px;
+    width: 400px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+   
+}
+
+#imagem2{
+    background-image: url(download.png);
+    height: 300px;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: -600px;
+    background-repeat: no-repeat;
+}
+
+#imagem3{
+    background-color: aqua;
+    height: 500px;
+    
+}

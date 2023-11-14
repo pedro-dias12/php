@@ -1,0 +1,8 @@
+#img {
+background-image:url(imagem.png.png);
+height: 1000px;
+width: 1000px;
+background-repeat: no-repeat;
+border: solid 5px black;
+margin-left: 150px;
+}
