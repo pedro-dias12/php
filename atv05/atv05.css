@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+    grid-template-rows: 10% 80% 10% ;
+    grid-template-areas: "header header header"
+                        "menul main menur"
+                        "footer footer footer";
+}
+
+.header{
+    grid-area: header ;
+    background-color: rgb(77, 98, 218);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    grid-template-areas: "imagem1 titulo imagem2";
+}
+.imagem1{
+    grid-area: imagem1;
+    background-color: rgb(77, 98, 218)7;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.titulo{
+    grid-area: titulo;
+    background-color: rgb(77, 98, 218);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem2{
+    grid-area: imagem2;
+    background-color: rgb(77, 98, 218);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.menul{
+    grid-area: menul;
+    background-color:rgb(5, 30, 100);
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+}
+.main{
+    grid-area: main ;
+    background-color:rgb(91, 91, 156);
+    display: grid;
+    justify-content: center;
+    align-items: start;
+}
+.menur{
+    grid-area: menur;
+    background-color:rgb(5, 30, 100);
+    display: grid;
+    justify-content: center;
+}
+.footer{
+    grid-area:footer ;
+    background-color: rgb(77, 98, 218);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
