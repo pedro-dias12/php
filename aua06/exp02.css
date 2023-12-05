@@ -1,0 +1,52 @@
+body{
+   background-color:aqua;
+
+}
+.container{
+    width:auto ;
+    background-color: aquamarine;
+    height:600px;
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    gap:10px;
+    font-size: 60px;
+    grid-template-areas: "p1 p2 p3"
+                         "p4 p5 p6"
+                         "p7 p8 p9";
+                        gap: 10px ;
+}
+.p1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border: solid black;
+}
+.p2{
+   
+    border: solid black 3px;
+}
+.p3{
+   
+    border: solid black 3px;
+}
+.p4{
+   
+    border: solid black 3px;
+}
+.p5{
+    
+    border: solid black 3px;
+}
+.p5{
+  
+    border: solid black 3px;
+}
+.p6{
+   
+    border: solid black 3px;
+}
+.p7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: solid black 3px;
+}

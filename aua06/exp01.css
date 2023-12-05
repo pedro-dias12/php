@@ -1,0 +1,54 @@
+body{
+    height: 600px;
+    width: 100%;
+}
+.container{
+    width:100% ;
+    background-color: rgb(160, 189, 250);
+    height: 600px;
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    grid-template-rows: 20% 45% 35%;
+    grid-template-areas: "header1 header1 header1"
+                         "menu1 main1 right1"
+                         "menu1 footer1 footer1";
+                        gap: 10px ;
+    
+}
+
+.header1{
+    grid-area: header1;
+    font-size: 30px;
+    text-align: center;
+    border: solid blue 10px;
+}
+
+.menu1{
+    grid-area: menu1;
+    font-size: 30px;
+    text-align: center;
+    border: solid blue 10px;
+    
+}
+
+.main1{
+    grid-area: main1;
+    font-size: 30px;
+    text-align: center;
+    border: solid blue 10px;
+    
+}
+
+.right1{
+    grid-area: right1;
+    font-size: 30px;
+    text-align: center;
+    border: solid blue 10px;
+}
+.footer1{
+    grid-area: footer1;
+    font-size: 30px;
+    text-align: center;
+    border: solid blue 10px;
+}
+

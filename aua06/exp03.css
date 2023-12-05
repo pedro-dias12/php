@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(189, 243, 222);
+}
+
+.box{
+    text-align: center;
+    font-size: 60px;
+    display: grid;
+    justify-content: space-evenly;
+    height: 550px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.j{
+    background-color: red;
+    padding: 90px;
+}
