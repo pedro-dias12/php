@@ -1,0 +1,56 @@
+.conteiner{
+    height: 700px;
+    width: auto;
+    display: grid;
+    background-color: cornflowerblue;
+    grid-template-areas: "topo topo topo"
+                         "ce cp cd"
+                         "rod rod rod";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 200px;                     
+}
+.topo{
+   display: grid;
+   grid-template-areas:"p1 p2 p3 p4";
+   grid-column-start: 1;
+   grid-column-end: 4;
+   
+
+}
+
+.ce{
+    background-color: greenyellow;
+    grid-area: ce;
+}
+.cp{
+    background-color: blueviolet;
+    grid-area: cp;
+}
+.cd{
+    background-color: greenyellow;
+    grid-area: cd;
+}
+.rod{
+    background-color: violet;
+    grid-area: rod;
+}
+.topo .p1{
+    grid-area: p1;
+    background-color: blueviolet;
+    font-size: 50px;
+}
+.topo .p2{
+    grid-area: p2;
+    background-color:burlywood ;
+    font-size: 50px;
+}
+.topo .p3{
+    grid-area: p3;
+    background-color: cadetblue;
+    font-size: 50px;
+}
+.topo .p4{
+    grid-area: p4;
+    background-color: yellow;
+    font-size: 50px;
+}

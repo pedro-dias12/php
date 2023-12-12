@@ -1,0 +1,122 @@
+.conteiner{
+    height: 700px;
+    width: auto;
+    display: grid;
+    background-color: cornflowerblue;
+    grid-template-areas: "topo topo topo"
+                         "ce cp cd"
+                         "rod rod rod";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 200px;                     
+}
+.topo{
+    display: grid;
+    grid-template-areas:"a1 a2 a3 a4";
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+ }
+ 
+
+.ce{
+    background-color: greenyellow;
+    grid-area: ce;
+}
+.cp{
+    background-color: blueviolet;
+    grid-area: cp;
+}
+.cd{
+    grid-area: cd;
+    display: grid;
+    background-color: greenyellow;
+    grid-template-areas: "p1 p2"
+                         "p3 p4"
+                         "p5 p6"
+                         "p7 p8";
+    gap: 10px;
+    
+   
+}
+.rod{
+    background-color: violet;
+    grid-area: rod;
+}
+
+.topo .a1{
+    grid-area: a1;
+    background-color: blueviolet;
+    font-size: 50px;
+}
+.topo .a2{
+    grid-area: a2;
+    background-color:burlywood ;
+    font-size: 50px;
+}
+.topo .a3{
+    grid-area: a3;
+    background-color: cadetblue;
+    font-size: 50px;
+}
+.topo .a4{
+    grid-area: a4;
+    background-color: yellow;
+    font-size: 50px;
+}
+
+.p1 {
+    grid-area:p1;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p1 p{
+    grid-area:p1;
+    background-color: rgb(80, 162, 255);
+    font-size: 30px;
+}
+.p2 {
+    grid-area:p2;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p3 {
+    grid-area:p3;
+    background-color: coral;
+    font-size: 30px;
+}
+.p4 {
+    grid-area:p4;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p5 {
+    grid-area:p5;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p6 {
+    grid-area:p6;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p6 p{
+    grid-area:p6;
+    background-color: rgb(229, 255, 80);
+    font-size: 30px;
+}
+.p7 {
+    grid-area:p7;
+    background-color: coral;
+    font-size: 30px;
+}
+
+.p8 {
+    grid-area:p8;
+    background-color: coral;
+    font-size: 30px;
+}
